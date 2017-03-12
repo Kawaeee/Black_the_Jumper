@@ -29,13 +29,13 @@ public class ScoreBoard extends Actor
      */
     public ScoreBoard(int score)
     {
-        makeImage("Time left : ",(Timer.time/60),"  Death :  ", Deathcount.dead);
+        makeImage("Time left : ",(Timer.time/60),"  Death :  ", Deathcount.dead,"Score : ");
     }
 
     /**
      * Make the score board image.
      */
-    private void makeImage(String title,int timer,String prefix, int score)
+    private void makeImage(String title,int timer,String prefix, int score,String endscore)
     {
         GreenfootImage image = new GreenfootImage(WIDTH, HEIGHT);
 
@@ -47,8 +47,9 @@ public class ScoreBoard extends Actor
         font = font.deriveFont(FONT_SIZE);
         image.setFont(font);
         image.setColor(Color.WHITE);
-        image.drawString(title + timer, 60, 100);
-        image.drawString(prefix + score, 60, 200);
+        image.drawString(title + timer, 60, 90);
+        image.drawString(prefix + score, 60, 165);
+        image.drawString(endscore + ((timer*10)/score), 80, 240);
         setImage(image);
     }
 }
