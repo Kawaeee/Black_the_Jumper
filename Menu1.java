@@ -17,7 +17,7 @@ public class Menu1 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 400, 1);
-        addObject(new Title(),247,63);
+        addObject(new Title(),320,63);
          addObject(new Start(),224,148);
          addObject(new Instructions(),232,210);
          addObject(new Exit(),226,285);
