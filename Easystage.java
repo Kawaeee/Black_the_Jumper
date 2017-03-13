@@ -20,6 +20,7 @@ public class Easystage extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 400, 1);
+        Restart.count = 1;
         addObject(new Block(8),33,300);
         addObject(new Block(9),770,315);
         addObject(new Block(2),121,329);
@@ -33,6 +34,8 @@ public class Easystage extends World
         addObject(new Counter(),33,220);
         addObject(new Timer(),760,20);
         addObject(new Deathcount(),680,20);
+        addObject(new Restart(),480,370);
+        addObject(new BacktoMenu(),628,374);
         Sound.started();
     }
     
