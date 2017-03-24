@@ -4,3 +4,5 @@ Greenfoot Individual Project CS'KMUTT
 https://github.com/xSiri/Black_the_Jumper
 - Wiki :
 https://github.com/xSiri/Black_the_Jumper/wiki/Black_the_Jumper-wiki
+- Java Question :
+https://github.com/xSiri/Black_the_Jumper/wiki/Java-Question
