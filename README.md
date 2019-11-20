@@ -1,8 +1,6 @@
 # Black_the_Jumper
-Greenfoot Individual Project CS'KMUTT
-- This is this repository link :
-https://github.com/xSiri/Black_the_Jumper
+This project is a part of CSC105 Computer Programming II
 - Wiki :
-https://github.com/xSiri/Black_the_Jumper/wiki/Black_the_Jumper-wiki
+https://github.com/Kawaeee/Black_the_Jumper/wiki/Black_the_Jumper-wiki
 - Java Question :
-https://github.com/xSiri/Black_the_Jumper/wiki/Java-Question
+https://github.com/Kawaeee/Black_the_Jumper/wiki/Java-Question
